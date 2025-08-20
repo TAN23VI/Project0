@@ -1,1 +1,30 @@
-yolo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LegalGPT – Sample Demo</title>
+  <style>
+    :root{
+      --bg:#0f172a; --card:#111827; --muted:#94a3b8; --text:#e5e7eb; --accent:#22c55e;
+      --ring:rgba(255,255,255,.08);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      color:var(--text); background:linear-gradient(180deg,#020617, #0b1225 35%, #0f172a);
+    }
+    header{
+      padding:28px 20px; border-bottom:1px solid var(--ring); position:sticky; top:0; backdrop-filter:blur(6px);
+      background:linear-gradient(180deg,rgba(2,6,23,.85),rgba(2,6,23,.55));
+    }
+    .wrap{max-width:1100px; margin:0 auto; padding:0 16px}
+    .hero{
+      display:grid; gap:20px; grid-template-columns: 1.1fr .9fr; align-items:center; padding:44px 0 12px;
+    }
+    h1{font-size: clamp(28px,5vw,44px); margin:0 0 8px}
+    p.lead{color:var(--muted); margin:0 0 18px; max-width:60ch}
+    .btn{
+      display:inline-flex; align-items:center; gap:8px; border:1px solid var(--ring);
+      background:linear-gradient(180deg,#16a34a,#22c55e); color:#052e13; font-weight:700;
+      padding:10px 16px; border-radius:12px; cursor:pointer; box-shadow:0 8p
